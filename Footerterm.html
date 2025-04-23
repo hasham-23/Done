@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZARATHERAPY | Terms and Conditions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style3.css" />
+</head>
+
+<body>
+  <style>
+    body {
+      margin: 0;
+
+    }
+
+    .navbar {
+      display: flex;
+      font-family: "Nunito", sans-serif;
+      font-optical-sizing: auto;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: white;
+      border-bottom: 1px solid #559288;
+    }
+
+    .logo {
+      height: 50px;
+    }
+
+    .onenav {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #559288;
+      margin-left: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+
+    }
+
+    sub {
+      font-size: small;
+      font-style: italic;
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+
+    }
+
+    .together {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: rgba(93, 92, 92, 0.963);
+      font-size: 1rem;
+    }
+
+    .nav-links a:not(.login-btn):not(.getstarted-btn):hover {
+      border-bottom: 4px solid #559288;
+      padding-bottom: 20px;
+    }
+
+    .login-btn,
+    .getstarted-btn {
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .login-btn {
+      border: 2px solid #559288;
+      color: #559288;
+    }
+
+    .login-btn:hover {
+      background-color: #5592885f;
+    }
+
+    .getstarted-btn {
+      background-color: #5592885f;
+      border: none;
+
+    }
+
+    .getstarted-btn:hover {
+      background-color: #559288;
+      color: white;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        font-size: small;
+        top: 57px;
+        right: 0;
+        /* left: 30px; */
+        background-color: white;
+        border-top: 1px solid #559288;
+        padding: 20px;
+      }
+
+      .nav-links.active {
+        display: flex;
+
+      }
+
+      .menu-icon {
+        display: block;
+        font-size: small;
+      }
+
+      .onenav {
+        font-size: small;
+
+      }
+
+      sub {
+        font-size: smaller;
+      }
+
+      .logo {
+        height: 40px;
+
+      }
+
+      .login-btn {
+        margin-top: 5px;
+        /* margin-left: -10px; */
+      }
+
+      .getstarted-btn {
+        margin-top: 10px;
+        /* margin-left: -10px; */
+
+      }
+
+    }
+
+    :root {
+      --main-color: #559288;
+      --main-color-light: #5592885f;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      background: #f4fdfa;
+      color: #333;
+    }
+
+    header {
+      background-color: #007f5f;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      padding: 10px;
+      height: 40px;
+      color: white;
+      margin: 0;
+      font-size: small;
+    }
+
+
+    .content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h2,
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--main-color);
+      margin-top: 2rem;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+
+    a {
+      color: var(--main-color);
+      text-decoration: underline;
+    }
+
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--main-color);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    #scrollTopBtn:hover {
+      background-color: #3e716a;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .content {
+        padding: 1.5rem 1rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .big-footer {
+      background: linear-gradient(to top, #559288a4, #f6fbfb);
+      padding: 60px 20px 30px;
+      font-family: 'Segoe UI', sans-serif;
+      margin-bottom: -10px;
+      color: #2e3d49;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border: 2px solid #559288;
+      box-shadow: 0 -15px 30px rgba(0, 0, 0, 0.05);
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .footer-col-brand {
+      color: #559288;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 20px;
+    }
+
+    sub {
+      font-size: small;
+      font-style: italic;
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+    }
+
+    .mqm {
+      color: black;
+    }
+
+    .footer-col {
+      flex: 1 1 200px;
+      min-width: 220px;
+      font-family: "Nunito", sans-serif;
+      color: black;
+    }
+
+    .footer-col h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #559288;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-col li {
+      margin-bottom: 10px;
+      font-size: small;
+      color: black;
+    }
+
+    .footer-col a {
+      color: #3d5a80;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .footer-col a:hover {
+      color: #ee6c4d;
+    }
+
+    .brand h2 {
+      font-size: 32px;
+      color: #2b7a78;
+      margin-bottom: 10px;
+    }
+
+    .brand p {
+      max-width: 300px;
+      line-height: 1.6;
+    }
+
+    .para {
+      font-size: small;
+    }
+
+    .contact p {
+      margin-bottom: 8px;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 80%;
+      max-width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .newsletter button {
+      padding: 10px 18px;
+      border: none;
+      background-color: #559288;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .newsletter button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .social-icon {
+      margin-top: 10px;
+      font-size: large;
+      margin-left: 200px;
+    }
+
+    .social-icons a {
+      color: #3d5a80;
+      font-size: larger;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 25px;
+      border-top: 1px solid black;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    #moon {
+      margin-left: 1000px;
+      margin-bottom: 10px;
+    }
+
+    #star {
+      margin-left: 30px;
+    }
+
+    #earth {
+      margin-left: 30px;
+    }
+
+    #sun {
+      margin-left: 30px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Media queries for responsiveness */
+    @media (max-width: 1024px) {
+      .footer-container {
+        justify-content: space-evenly;
+      }
+
+      .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer-col {
+        min-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .newsletter input[type="email"] {
+        width: 100%;
+      }
+
+      .social-icons {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      #moon,
+      #star,
+      #earth,
+      #sun {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .footer-col h3 {
+        font-size: 18px;
+      }
+
+      .footer-bottom p {
+        font-size: 12px;
+      }
+
+      .newsletter input[type="email"] {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .footer-container {
+        gap: 20px;
+      }
+    }
+  </style>
+ <nav class="navbar">
+  <div class="together">
+    <img src="logohere.png" alt="Logo" class="logo" />
+    <a href="index.html">
+     <a href="Index.html" style="text-decoration: none;"> <div class="onenav">
+        ZARA
+        <sub>t</sub><sub>h</sub><sub>e</sub><sub>r</sub><sub>a</sub><sub>p</sub><sub>i</sub><sub>s</sub><sub>t</sub>
+      </div></a>
+    </a>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="about.html">About</a></li>
+    <li><a href="ADVICE.HTML">Advice</a></li>
+    <li><a href="Afaq.html">FAQ</a></li>
+    <li><a href="Atherapistjobs.html">Therapist jobs</a></li>
+    <li><a href="BCONTACT.html">Contact</a></li>
+    <li><a href="Alogin.html" class="login-btn">Login</a></li>
+    <li><a href="Astarted.html" class="getstarted-btn">Get Started</a></li>
+  </ul>
+</nav>
+
+  <header>
+    Terms and Conditions
+  </header>
+
+  <div class="content">
+    <h2>1. Introduction</h2>
+    <p>
+      These Terms and Conditions (“Agreement”) govern your use of the ZARATHERAPY platform, which provides access to
+      mental health counseling and related services. By accessing the platform, you agree to be bound by this Agreement.
+    </p>
+
+    <h2>2. Platform Access</h2>
+    <p>
+      The platform may be accessible via different websites or applications operated by ZARATHERAPY or third-party
+      services, including <a href="#">yourwebsite.com</a> and related mobile applications.
+    </p>
+
+    <h2>3. User Responsibilities</h2>
+    <p>
+      By using the platform, you confirm that you understand and accept the terms of this Agreement. If you do not
+      agree, you should not use the platform or its services.
+    </p>
+
+    <h2>4. Eligibility</h2>
+    <p>
+      You must be at least 18 years old or have the involvement and consent of a parent or legal guardian to use our
+      services. By accessing the platform, you confirm that you meet this requirement.
+    </p>
+
+    <h2>5. Professional Advice Disclaimer</h2>
+    <p>
+      ZARATHERAPY provides mental health counseling via licensed professionals. However, we do not guarantee that
+      services will meet all personal needs. If you are in crisis or require urgent care, please seek immediate help
+      from local emergency services.
+    </p>
+
+    <h2>6. Account Security</h2>
+    <p>
+      You are responsible for maintaining the confidentiality of your account information. You agree to notify us
+      immediately of any unauthorized use or breach of security.
+    </p>
+
+    <h2>7. Modification of Terms</h2>
+    <p>
+      ZARATHERAPY reserves the right to update these Terms at any time without notice. It is your responsibility to
+      review them periodically. Continued use of the platform constitutes acceptance of any changes.
+    </p>
+
+    <h2>8. Termination</h2>
+    <p>
+      We may suspend or terminate your access to the platform at our sole discretion, with or without cause, and without
+      prior notice.
+    </p>
+
+    <h2>9. Governing Law</h2>
+    <p>
+      These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard
+      to conflict of law provisions.
+    </p>
+
+    <h2>10. Contact</h2>
+    <p>
+      ZARATHERAPY is located at [Your Address]. For any questions or concerns, please contact us at <a
+        href="mailto:contact@example.com">contact@example.com</a>.
+    </p>
+  </div>
+
+  <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+  <footer class="big-footer">
+    <div class="footer-container">
+      <div class="footer-col-brand">
+        <h2>ZARA
+          <sub>T</sub><sub>h</sub><sub>e</sub><sub>r</sub><sub>a</sub><sub>p</sub><sub>i</sub><sub>s</sub><sub>t</sub>
+        </h2>
+        <p class="mqm">Where understanding meets transformation.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="ABOUT.html">About</a></li>
+          <li><a href="Afaq.html">FAQ</a></li>
+          <li><a href="ADVICE.HTML">Advices</a></li>
+          <li><a href="BCONTACT.html">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-col">
+        <h3>Legal and Accessibility Information</h3>
+        <ul>
+          <li><a href="Footerterm.html">Terms and Conditions</a></li>
+          <li><a href="footerprivacy.html">Privacy Policy</a></li>
+          <li><a href="footersharibg.html">Sharing Settings</a></li>
+          <li><a href="footerwebac.html">Web Accessibility</a></li>
+        </ul>
+      </div>
+  
+
+      <div class="footer-col contact">
+        <h3>Contact</h3>
+        <p class="para">Email: zara@therapist.com</p>
+        <p class="para">Phone: +123 456 7890</p>
+        <p class="para">Location: Online & In-Person</p>
+      </div>
+
+      <div class="footer-col newsletter">
+        <h3>Stay Connected</h3>
+        <p>Join our newsletter for mental wellness tips.</p>
+        <form>
+          <input type="email" placeholder="Your email">
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f" id="moon"></i></a>
+          <a href="https://www.instagram.com/"><i class="fab fa-instagram" id="star"></i></a>
+          <a href="https://www.x.com/"><i class="fab fa-twitter" id="sun"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in" id="earth"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 ZARA Therapist. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("active");
+    }
+  </script>
+</body>
+
+</html>

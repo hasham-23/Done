@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body,
+    html {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url(family.jpg) no-repeat center center/cover;
+    }
+
+    .container {
+      background-color: rgba(0, 64, 48, 0.6);
+      /* Semi-transparent overlay */
+      display: flex;
+      width: 90%;
+      max-width: 1100px;
+      padding: 40px;
+      border-radius: 10px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .quote {
+      color: white;
+      width: 50%;
+      padding-right: 20px;
+    }
+
+    .quote h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .quote p {
+      font-size: 18px;
+    }
+
+    .login-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 40%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .login-box form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .login-box input {
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .login-box button {
+      padding: 15px;
+      background-color: #A4DF9E;
+      border: none;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .login-box button:hover {
+      background-color: #8cd488;
+    }
+
+    .login-box a {
+      margin-top: 15px;
+      text-align: center;
+      color: #2d6a4f;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    .img {
+      background-image: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="quote">
+      <h1>"The measure of who we are is what we do with what we have."</h1>
+      <p>Vince Lombardi</p>
+    </div>
+    <div class="login-box">
+      <form>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <a href="#">Forgot password?</a>
+      </form>
+    </div>
+  </div>
+
+</html>

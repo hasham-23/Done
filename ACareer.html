@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalimuham
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#tittle-heading{
+    text-align: center;
+    font-size: 2rem;
+   margin-top: 10%;
+   font-weight: 600;
+   font-family: "Montserrat", sans-serif;
+}
+
+#menu{
+   justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    border:  1px solid#559288;
+    align-items: center;
+    margin-top: 100px;
+font-family: 'zilla slap',sans-serif;
+}
+
+
+#menu a{
+
+padding:10px;
+    margin: 20px;
+text-align: center;
+    text-decoration: none;
+   color: black;
+font-family: 'zilla slap',sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    color:#5592885f;
+    text-decoration: underline #5592885f;
+}
+  .main{
+    position: absolute;
+    margin-top: 40px;
+    background: #5592885f;
+    width: 108%;
+    margin-left: -50px;
+    height: 400px;
+    border-radius: 45%;
+}
+
+.box{
+    margin-top: 120px;
+    text-align: center;
+}
+.hs{
+    color: #559288;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#ps{
+    color: white;
+    font-family: "Nunito ",sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: -40px;
+    text-align: center;
+
+}
+
+#open{
+    width: 200px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: arial;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid #559288;
+    margin-bottom: 20px;
+}
+
+.carosuel-inner{
+    margin-top: 350px;
+    position: absolute;
+    width: 100px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.carousel-control-next{
+    margin-top: 290px;
+}
+
+.carousel-control-prev{
+    margin-top: 290px;
+}
+#imn{
+    margin-top: 400px;
+    margin-left: -40px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+height: 390px;
+}
+
+.better-culture{
+    display: grid;
+    margin-top: 200px;
+   
+    height: 1150px;
+    background: palegoldenrod;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+
+#bs{
+font-weight: 600;
+margin-top: 20px;
+text-align: center;
+margin-left: 450px;
+margin-bottom: 60px;
+    font-family: "Montserrat",sans-serif;
+}
+
+#pn{
+    font-weight: bold;
+    margin-top: -170px;
+ 
+}
+
+
+
+#ss{margin-top: 40px;
+    margin-bottom: 20px;
+margin-left: 160px;
+}
+.better-culture .getting-better,.our-adventure ,.open-up ,.better-together{
+    padding: 5rem;
+
+    text-align: center;
+}
+
+.our-adventure{
+    margin-top: 150px;
+ 
+margin-left: -550px;
+}
+
+.getting-better{
+    margin-top: 540px;
+    text-align: center;
+    margin-left:250px;
+
+}
+
+.open-up{
+    margin-top: -850px;
+margin-left: -150px;
+}
+
+.better-together{
+    margin-top: -520px;
+    margin-left: -1150px;
+
+}
+
+#pf{display:grid; grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    margin-top: 150px;
+font-family: "Nunito",sans-serif;
+font-weight: 500;
+}
+
+
+#uu{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.perk-better-health{
+    display: grid;
+    background-color: #559288;
+    margin-top: 300px;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    height: 1050px;
+    margin-left: 40px;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+.Healthy-meals{
+    margin-top: 180px;
+    margin-left: -390px;
+    margin-bottom: 120px;
+}
+
+#hn{
+    margin-top: -130px;
+    
+}
+
+#he{
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.Generous-compensation{
+    margin-top: 200px;
+    margin-left: -250px;
+}
+
+#gn{
+    margin-top: -110px;
+}
+#gg{
+    margin-top: -80px;
+    margin-left: 10px;
+    
+}
+
+.Holistic-wellness-package{
+    margin-top: -150px;
+    margin-left: -390px;
+}
+#ho{
+margin-top: -120px;
+}
+
+#hr{
+margin-top: -70px;
+margin-left: 5px;
+}
+
+.Collaborative-culture{
+    margin-top: 20px; 
+    margin-left: 120px;
+}
+#cn{margin-top: -130px;
+
+}
+
+#cc{
+    margin-top: -60px;
+    margin-left: 10px;
+}
+
+.Family-and-pet-friendly{
+    margin-top: -150px;
+    margin-left: -250px;
+
+}
+
+#fn{
+margin-top: -120px;
+}
+
+#fo{
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+.Remote-flexibility{
+    margin-top: -290px;
+
+    margin-left: 790px;
+}
+
+#rn{
+    margin-top: -100px;
+    display:grid; grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  
+}
+#rf{
+margin-top: -70px;
+margin-left: 10px;
+}
+
+
+
+.carousel-inners{
+    position: absolute;
+    background: #559288;
+    width: 100%;
+    margin-top: 250px;
+    flex-wrap: wrap;
+    height: 550px;
+    border-top-right-radius:40% ;
+    border-top-left-radius:40% ;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.pqr{
+    text-align: center;
+    margin-left: -60px;
+}
+
+.mL{
+    width: 80px;
+    clip-path: circle(50% at 50% 50%);
+    height: 80px;
+    margin-left: 500px;
+    margin-top: 130px;
+
+}
+
+#hq{
+margin-top:40px;
+margin-left: -100px;
+margin-bottom: 20px;
+}
+#pl{
+    font-weight: 500;
+    font-family: "Nunito",sans-serif;
+    margin-top: -120px;
+    margin-left: 650px;
+}
+
+#pk{
+    font-weight: 500;
+    font-family: "Nunito",sans-serif;
+    margin-top: -20px;
+    margin-left: 650px;
+}
+
+
+.open-position{
+position: absolute;
+margin-top: 1150px;
+background: #559288;
+width: 100%;
+display: block;
+height: 1350px;
+}
+
+#open-position-heading{
+margin-top: 60px;
+font-family: "montserrat",sans-serif;
+font-weight: 600;
+font-size: 2rem;
+
+}
+.upper{
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    padding:25px;
+border: 2px solid #fff;
+    
+}
+#open-Position{
+margin-left:190px;
+width: 180px;
+padding: 10px;
+background: #fff;
+border-radius: 20px;
+cursor: pointer;
+font-family: arial;
+font-weight: 500;
+font-size: 1.2rem;
+text-transform: capitalize;
+border: 1px solid #fff;
+}
+
+#open-Position:hover{
+    background-color: #559288;
+color: #fff;
+}
+
+#department{
+    font-family: "montserrat",sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: -790px;
+}
+
+#select{padding: 10px;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+#select:hover{
+    border: red 1px solid;
+
+}
+
+
+#job-links{
+display: block;
+margin-left: 220px;
+color: black;
+text-decoration: none;
+margin-top: 40px;
+}
+
+#job-links:hover{
+    text-decoration: underline ;
+}
+
+.row{display: flex;
+align-items: center;
+}
+
+#label{
+    margin-top: 15px;
+    margin-left: 220px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main {
+        height: auto;
+        border-radius: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .carousel-inner img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .better-culture {
+        grid-template-columns: 1fr;
+    }
+
+    .perk-better-health {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+      height: 40vh;
+      padding: 20px;
+    }
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+    .hero-section p {
+      font-size: 1rem;
+    }
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .section {
+    padding: 50px 15px;
+  }
+
+  .perks-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .perks-list li {
+    margin-bottom: 15px;
+  }
+
+  .job-listing {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+  }
+
+@media (max-width: 991px) {
+    .main {
+      padding: 60px 20px;
+      border-radius: 25% 25% 0 0;
+    }
+  
+    .hs, #bs, #uu {
+      font-size: 2.2rem;
+    margin-left: 0;
+    padding-right: 750px;
+    }
+  
+    .carousel-caption {
+      font-size: 0.9rem;
+      padding: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .main { min-height: 400px;
+      padding: 40px 15px;
+      border-radius: 0;
+    }
+  
+    .hs {
+      font-size: 1.8rem;
+     
+    } #bs{ font-size: 1.2rem;
+        padding-right: 850px;
+    }
+
+    #uu{
+        font-size: 1.2rem;
+        padding-right: 1250px;
+    }
+  
+    .perk-better-health,
+    .better-culture {
+      grid-template-columns: 1fr;
+      padding: 2rem 1rem;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .better-together{
+text-align: center;
+padding-left: 280px;
+padding-top: -2550px;
+flex-wrap: wrap;
+font-size: 0.5rem;
+    }
+
+    
+
+  
+    .Healthy-meals{
+        text-align: center;
+        top: 120px;
+        padding: 2em 5em;
+        padding-right: 900px;
+        font-size: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .Generous-compensation{
+        margin-top: 40px;
+        font-size: 0.5rem;
+        padding-right: 1000px;
+        justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+
+    .Collaborative-culture{
+margin-top: 100px;
+font-size: 0.5rem;
+margin-left: -320px;
+padding-right: 900px;
+justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    #he{
+
+padding-right: 50px;
+    }
+#cc{
+    margin-top: -80px;
+    padding-right: 50px;
+}
+
+#cn{
+    font-size: 0.5rem;
+    padding-right: 50px;
+    overflow: hidden;
+margin-top: 40px;
+}
+
+#gg{
+   
+    padding-right: 55px;
+}
+
+#gn{
+    font-size: 0.5rem;
+    padding-right: 50px;
+    overflow: hidden;
+margin-top: 40px;
+}
+
+    #hn{
+        font-size: 0.5rem;
+        padding-right: 50px;
+        overflow: hidden;
+    margin-top: 40px;
+    }
+     .our-adventure{
+        text-align: center;
+        padding-right: 450px;
+        padding-top: -2550px;
+        position: static;
+        font-size: 0.5rem;
+     }
+
+     .open-up{
+        display: none;
+     }
+.better-culture{
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    overflow: scroll;
+    grid-template-columns: 1fr;
+}
+
+.perk-better-health{
+    
+    flex-wrap: wrap;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    
+}
+
+.Remote-flexibility, .Holistic-wellness-package, .Family-and-pet-friendly{
+    display: none;
+}
+
+
+
+    .carousel-inners{
+overflow:hidden ;
+font-size: 1rem;
+max-height: 90vh;
+width: 100%;
+padding: 2rem 5rem;
+text-align: center;
+padding-left: 100px;
+justify-content: center;
+flex-wrap: wrap;
+    }
+
+    .open-position{
+        height: auto;
+    }
+
+    .opportunities{
+padding-right: 1800px;
+text-align: center;
+justify-content: center;
+    }
+
+    .carousel-caption {
+      font-size: 0.85rem;
+     
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .main {
+      padding: 100px 40px;
+    }
+  
+    .hs {
+      font-size: 3rem;
+    }
+  }
+</style>
+
+
+  </head>
+<body>
+    <h2 id="tittle-heading"><span>careers</span></h2>
+    <nav id="menu">
+        <a href="index.html">about</a>
+        <a href="careers.html">careers</a>
+        <a href="social-impact.html">social-impact</a>
+        <a href="client-outcomes.html">client-outcomes</a>
+        <a href="#careers"></a>
+    </nav>
+
+    <section id="careers">
+<div class="main">
+    <div class="box">
+<h1 class="hs">Join the team that’s changing lives</h1>
+<p  id="ps">We are passionate and compassionate professionals, driven by the mission of helping more people live a <br>better and happier life every day. We are growing fast and always looking for new talent!</p>
+<button type="button" onclick="window.location.href ='#open-Position'" id="open">view open poition</button>
+    </div>
+    
+    <!-- carosuel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="imn" src="images/carousel-1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img id="imn" src="images/carousel-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img id="imn" src="images/carousel-5.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="better-culture">
+        <h3 id="bs"> better culture</h3>
+        <div class="getting-better">
+<img id="ss" src="images/2.jpg.svg" alt="">
+<p id="pn">Always getting better</p>
+<p id="pf">Our drive to improve people's <br>lives continues to propel us forward. <br>We are constantly questioning, learning, <br>and adapting. Growth is a core <br>component of our culture and <br>we will not stop evolving to be <br>the best we can be!</p>
+</div>
+        <div class="our-adventure">
+<img id="ss" src="images/1.jpg.svg" alt="">
+<p id="pn">Choose your own adventure</p>
+<p id="pf">You will take ownership of your path here and <br>help write ZaraTherapy's next chapter! Our shared <br>curiosity drives every member of the team <br>to learn, grow, and take <br>initiative to contribute to our overall success.</p>
+</div>
+
+<div class="open-up">
+    <img id="ss" src="images/3.jpg.svg" alt="">
+    <p id="pn">open up</p>
+    <p id="pf">We commit to transparency by celebrating candid and authentic conversations, efficient meetings, and curated spaces for the team to connect on all levels. As a result, we are educated in efforts across the entire organization.</p>
+</div>
+<div class="better-together">
+    <img id="ss" src="images/4.jpg.svg" alt="">
+    <p id="pn">better together</p>
+    <p id="pf">We are a human centric company, both <br>in our product and in the community <br>we create in our workplace. We play <br>nice and leave our egos at  door. <br>And honestly, we just have a good time!</p>
+</div>
+      </div>
+
+      <div class="perk-better-health">
+
+        <h3 id="uu">perk of better health</h3>
+        <div class="Healthy-meals">
+            <p>Healthy meals on us</p>
+            <img id="he" src="images/h.jpg.png" alt="">
+            <p id="hn">A well-fed team is a happy team! We go <br> above and beyond to make sure you’ll always <br> have access to fresh, healthy food in the <br> office and at home. </p>
+        </div> 
+        <div class="Generous-compensation">
+            <p>Generous-compensation</p>
+            <img id="gg" src="images/g.jpg.png" alt="">
+            <p  id="gn">Your financial wellness is a priority of ours. <br> We offer competitive compensation, 401K, <br> ESPP, and more.</p>
+        </div>
+        <div class="Collaborative-culture">
+            <p >Collaborative-culture</p>
+            <img id="cc" src="images/c.jpg.png" alt="">
+             <p id="cn"> We’re a team. Through a variety of virtual <br> and in-person events, on-sites, and off-sites, <br> we create connections and ensure you’re a <br>part of the team </p>
+        </div>
+
+        <div class="Holistic-wellness-package">
+            <p>Holistic wellness package</p>
+           <img id="hr" src="images/ho.jpg.png" alt="">
+            <p id="ho">Your comfort and wellness are important <br>to us. We provide a generous WFH <br> stipend, access to mental health & wellness <br> tools, health benefits, and more.</p>
+        </div> 
+        <div class="Family-and-pet-friendly">
+            <p>Family and pet-friendly</p>
+            <img  id="fo"  src="images/f.jpg.png" alt="">
+            <p id="fn">Family comes first. Our ultra-flexible PTO, <br> pet-friendly workplace, and generous parental <br> leave ensure your whole family is welcome and supported.</p>
+        </div>
+        <div class="Remote-flexibility">
+            <p>Remote flexibility</p>
+            <img id="rf" src="images/r.jpg.png" alt="">
+             <p id="rn"> The work world is changing and so <br> are we. Our flexible work from home <br>and  office plan provides the benefits <br>of collaboration while embodying flexibility. </p>
+        </div>
+      </div>
+ 
+      <!-- team stories -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inners">
+
+          <div class="carousel-item active">
+            <h3 id="hq">Team stories</h3>
+            <p class="pqr">Not only have I leveled up my engineering skills, but <br>the amount I’ve learned about business, therapy, <br>marketing, and human behavior has been life changing. <br>I find it very engaging to have access to all facets of the operation.</p>
+            <img class="mL" src="images/bg6.jpg.jpg" class="d-block w-100" alt="...">
+            <p id="pl">Dave Patrick</p>
+            <p id="pk">Principal Software Engineer</p>
+          </div>
+
+          <div class="carousel-item">
+            <h3 id="hq">Team stories</h3>
+            <p class="pqr">ZaraTherapy has been an incubator for me. I have grown from a <br>college grad, to a support team member, to a leader. <br> What keeps me here is that growth, the people around me, <br>the work we're doing as a company, and the endless possibilities!</p>
+            <img Class="mL" src="images/bg19.jpg" class="d-block w-100" alt="...">
+            <p id="pl">Kellie Baker</p>
+            <p id="pk">Associate Director, Therapist Experience</p>
+          </div>
+
+          <div class="carousel-item">
+            <h3 id="hq">Team stories</h3>
+            <p class="pqr">ZaraTherapy is not only dedicated to the <br>mission of making therapy accessible, convenient, <br>and affordable for the general public, but <br>as a company, there is a determination to make sure that everyone <br>working here is supported, heard, and provided with the <br>resources needed to succeed in their area of expertise.</p>
+            <img class="mL" src="images/bg1.jpeg.jpg" class="d-block w-100" alt="...">
+            <p id="pl">Murris Johnson</p>
+            <p id="pk" >Head of SEO</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-position">
+        <h3 id="open-position-heading">open position</h3>
+        <div class="upper">
+       
+        <p id="description">Are you a therapist looking to provide therapy through BetterHelp?</p>
+        <button id="open-Position" onclick="window.location.href =' therapist-JOBS.html'">open position</button>
+      </div>
+     <div class="Opportunities">
+      <h3 id="department">department</h3>
+      
+      <select name="" id="select">
+        <option value="">choose department</option>
+        <option value="">choose department <br><br>all 28</option>
+      <option value="">threapist(1)</option>
+      <option value="">marketing(3)</option>
+      <option value="">clinical operations(3)</option>
+      <option value="">data science & analytics(4)</option>
+      <option value="">product(5)</option>
+      <option value="">engineering(3)</option>
+      <option value="">better sleep(1)</option>
+      <option value="">international(3)</option>
+      <option value="">data engineering(1)</option>
+      <option value="">health plans(1)</option>
+      <option value="">quality assurance(1)</option>
+      <option value="">talent(2)</option>
+    </select>
+       <div class="row">
+ <div class="col-lg-6">
+  <p id="label">threapist</p>
+        <a href="#" id="job-links">licensed threapist</a>
+
+        <p id="label">marketing</p>
+      <a href="#" id="job-links">brand director</a>
+      <a href="#" id="job-links">seo intern-summer 2025</a>
+      <a href="#" id="job-links">vp of perfoamance marketing</a>
+
+      <p id="label">clinical operations</p>
+      <a href="#" id="job-links">clinical operation manager</a>
+      <a href="#" id="job-links">clinical operations managers-italy</a>
+      <a href="#" id="job-links">clinical operations managers-spain</a>
+
+      <p id="label">data science & analytics</p>
+      <a href="#" id="job-links">data scientist marketing interfaced</a>
+      <a href="#" id="job-links">senior data scientist,forecasting </a>
+      <a href="#" id="job-links">senior ml/ai platform Engineer</a>
+    </div>
+    <div class="col-lg-6">
+      <p id="label">better sleep</p>
+      <a href="#" id="job-links">gm,better sleep</a>
+
+      <p id="label">international</p>
+      <a href="#" id="job-links">international afffiliate marketing lead</a>
+      <a href="#" id="job-links">international perfoamance marketing managers</a>
+      
+      <p id="label">data engineering</p>
+      <a href="#" id="job-links">senior business intelligence and analytics Engineer </a>
+
+      <p id="label">health plans</p>
+      <a href="#" id="job-links">senior product marketing manager-health plans</a>
+      <p id="label">quality assurance</p>
+      <a href="#" id="job-links">senior sdet</a>
+
+      <p id="label">talent</p>
+      <a href="#" id="job-links">senior talent acquisition partner(contractor)</a>
+      <a href="#" id="job-links">technical talent sourcer(contractor)</a>
+    </div>
+    
+  </div>
+    </div>
+
+      </div>
+     </div>
+    
+    </div>
+    
+  </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

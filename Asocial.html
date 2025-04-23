@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalimuham
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #tittle-heading {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 10%;
+            font-weight: 600;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        #menu {
+            justify-content: center;
+            display: flex;
+            margin-bottom: 20px;
+            border: 1px solid#559288;
+            align-items: center;
+            margin-top: 100px;
+            font-family: 'zilla slap', sans-serif;
+        }
+
+
+        #menu a {
+
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-family: 'zilla slap', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        #menu a:hover {
+            color: #5592885f;
+            text-decoration: underline #5592885f;
+        }
+
+        .main-social {
+            position: absolute;
+            margin-top: 40px;
+            background: #5592885f;
+            width: 108%;
+            margin-left: -50px;
+            height: 650px;
+            border-radius: 45%;
+        }
+
+        #social-he {
+            color: #fff;
+            font-family: "montserrat", sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+            border-bottom: 1px solid white;
+            width: 850px;
+            margin-bottom: 40px;
+            margin-top: 50px;
+            margin-left: 450px;
+        }
+
+
+        #drive-us {
+            margin-top: 30px;
+            margin-left: 250px;
+            color: #fff;
+            padding-left: 320px;
+            font-family: "montserrat", sans-serif;
+            font-size: 1.5rem;
+
+        }
+
+
+        .cards-social {
+            display: flex;
+            align-items: center;
+            margin-left: 250px;
+            margin-top: 20px;
+        }
+
+        #para-card {
+            margin-top: 20px;
+            margin-left: 80px;
+            padding-left: -25px;
+        }
+
+
+        .cardd {
+            flex-wrap: wrap;
+            width: 220px;
+            margin: 10px;
+            background: #fff;
+            box-shadow: 2px 3px 6px #559288;
+            border-radius: 14px;
+            height: 210px;
+            align-items: center;
+            border: 1px solid black;
+        }
+
+
+        #oop {
+            width: 80px;
+            margin-left: 50px;
+            height: 80px;
+        }
+
+        .our-continued-impact {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            height: 350px;
+            margin-left: 150px;
+            width: 100%;
+        }
+
+        #yc {
+            margin-top: 250px;
+            font-family: "montserrat", sans-serif;
+            font-size: 2rem;
+            color: #559288;
+            margin-left: 40px;
+            margin-bottom: 80px;
+            font-weight: 600;
+        }
+
+
+        .donated {
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 650px;
+        }
+
+        .discounted {
+            position: relative;
+            margin-top: 250px;
+            margin-left: 350px;
+        }
+
+        #pars1 {
+            color: #559288;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: -140px;
+            padding-left: 50px;
+            font-family: "nunito", sans-serif;
+        }
+
+        #pars {
+            color: #559288;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: -140px;
+            padding-left: 50px;
+            font-family: "nunito", sans-serif;
+        }
+
+        #disaster {
+            margin-top: -990px;
+            text-align: center;
+            margin-left: 500px;
+            font-family: "montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            color: #559288;
+        }
+
+        .cards-disaster {
+            display: flex;
+            margin-top: -250px;
+            position: absolute;
+            align-items: center;
+        }
+
+        .cards-disasters {
+
+            margin-top: 250px;
+            display: flex;
+            align-items: center;
+            background-color: #5592885f;
+            height: 1280px;
+            width: 200%;
+            transition: max-height .5s ease;
+        }
+
+        .cards-disaster1 {
+            display: flex;
+            align-items: center;
+            margin-top: 120px;
+            margin-left: -1015px;
+            position: absolute;
+
+        }
+
+        #relief {
+            text-align: center;
+            margin-top: -700px;
+            margin-bottom: 140px;
+            font-family: "nunito", sans-serif;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-left: -500px;
+
+        }
+
+
+        #dis {
+            margin-left: 60px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            width: 220px;
+            height: 150px;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        #info {
+            margin-left: 60px;
+        }
+
+        .cardds {
+            width: 300px;
+            height: 400px;
+            border-left: 1px solid #5592885f;
+            margin: 15px;
+        }
+
+
+        .community {
+            position: absolute;
+            margin-top: 150px;
+            width: 100%;
+            height: 100dvh;
+        }
+
+        #partners-he {
+            font-family: "montserrat", sans-serif;
+            font-weight: 600;
+            margin-left: 450px;
+            font-size: 2rem;
+            color: #559288;
+        }
+
+        #unite {
+            font-family: "nunito ", sans-serif;
+            font-weight: 500;
+            text-align: center;
+            font-size: 1.2rem;
+            margin-left: -40px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+
+        #patnners-img {
+            margin-top: 90px;
+            margin-left: 72px;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            width: 110px;
+            height: 110px;
+        }
+
+
+        .mental-health {
+            position: absolute;
+            margin-top: 1600px;
+            height: 60vh;
+            width: 100%;
+        }
+
+        #future {
+            font-family: "montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-left: 390px;
+            margin-bottom: 60px;
+        }
+
+        #health {
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -50px;
+        }
+
+        .work {
+            position: absolute;
+            margin-top: 5800px;
+            height: 350px;
+            width: 100%;
+            background: #5592885f;
+        }
+
+        #work-with-us {
+            margin-left: 550px;
+            font-family: "montserrat", sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        #contact {
+            width: 160px;
+            padding: 10px;
+            border-radius: 20px;
+            margin-top: 50px;
+            border: 1px solid #fff;
+            cursor: pointer;
+            margin-left: 590px;
+            background: transparent;
+        }
+
+        #contact:hover {
+            background-color: #559288;
+            color: #fff;
+        }
+
+        #us {
+            text-align: center;
+            margin-left: 80px;
+            margin-top: 40px;
+            font-family: "montserrat", sans-serif;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        #us span {
+            margin-left: 150px;
+        }
+
+        @media (max-width: 768px) {
+
+            .cards-social,
+            .cards-disaster,
+            .cards-disaster1 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cards-social {
+                margin-left: -50px;
+                top: 50px;
+                padding-top: 80px;
+            }
+
+            .main-social {
+                height: 1200px;
+                width: 100%;
+            }
+
+            #dis {
+                margin-top: 250px;
+            }
+
+            .cards-disasters {
+                margin-top: 450px;
+                height: 2550px;
+
+            }
+
+            .cards-disaster {
+                margin-top: 550px;
+
+            }
+
+            .cards-disaster1 {
+                margin-left: 150px;
+                display: none;
+            }
+
+
+            #disaster {
+                margin-left: 180px;
+            }
+
+            #relief {
+                margin-left: -350px;
+            }
+
+            #social-he {
+                margin-left: 0;
+                text-align: center;
+                font-size: 1.4rem;
+                margin-top: 180px;
+                padding-right: 155px;
+                top: 50px;
+                padding-top: 160px;
+            }
+
+            #social-he,
+            #drive-us,
+            #pars,
+            #pars1,
+            #disasters {
+                text-align: center;
+                margin: 0 auto;
+                font-size: 1.4rem;
+            }
+
+            #drive-us {
+                margin-top: 50px;
+                margin-left: -320px;
+            }
+
+            .discounted {
+                margin-top: 10px;
+            }
+
+            #pars1 {
+                margin-left: -160px;
+            }
+
+            .donated {
+                margin-left: 80px;
+            }
+
+            #menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .cardd,
+            .cardds {
+                width: 90%;
+            }
+
+            #patnners-img {
+                width: 60px;
+                height: 60px;
+            }
+
+            #yc,
+            #disaster,
+            #partners-he,
+            #future {
+                font-size: 1.5rem;
+            }
+
+            .work,
+            .community,
+            .mental-health {
+                padding: 40px 10px;
+            }
+
+            .community {
+                margin-top: 600px;
+            }
+
+            .community-img {
+                margin-top: -10px;
+            }
+
+            #partners-he {
+                margin-top: 150px;
+            }
+
+            #unite {
+                margin-top: -20px;
+            }
+
+            #contact {
+                margin-top: 20px;
+                margin-left: 280px;
+            }
+
+            .work {
+                top: 2050px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            h2#tittle-heading {
+                font-size: 1.8rem;
+            }
+
+            #menu a {
+                font-size: 0.9rem;
+            }
+
+            .cardd,
+            .cardds {
+                padding: 10px;
+            }
+
+            #us {
+                font-size: 1rem;
+            }
+
+            #contact {
+                width: 100%;
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2 id="tittle-heading"><span>social</span> impact</h2>
+    <nav id="menu">
+        <a href="index.html">about</a>
+        <a href="careers.html">careers</a>
+        <a href="social-impact.html">social-impact</a>
+        <a href="client-outcomes.html">client-outcomes</a>
+        <a href="#social"></a>
+    </nav>
+    <section id="social">
+        <div class="main-social">
+            <h3 id="social-he">
+                Our social impact program is committed to making therapy <br>equitable and accessible to under-resourced
+                communities <br>and individuals in need.
+            </h3>
+
+
+            <h4 id="drive-us">
+                What drives us:</h4>
+            <div class="row">
+                <div class="col-lg-4 md-lg-4">
+
+                    <div class="cards-social">
+                        <div class="cardd">
+                            <img id="oop"
+                                src="https://assets.betterhelp.com/about/social-impact/IncreasingAccess.png?v=71aae1049dcd"
+                                alt="">
+                            <p id="para-card"> Increasing <br>equitable access</p>
+                        </div>
+
+                        <div class="cardd">
+                            <img id="oop"
+                                src="https://assets.betterhelp.com/about/social-impact/ReducingStigma.png?v=71aae1049dcd"
+                                alt="">
+                            <p id="para-card">Reducing stigma</p>
+                        </div>
+
+                        <div class="cardd">
+                            <img id="oop"
+                                src="https://assets.betterhelp.com/about/social-impact/ProvidingSupport.png?v=71aae1049dcd"
+                                alt="">
+                            <p id="para-card"> Providing support <br>in crisis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="our-continued impact">
+
+                <h3 id="yc">our continued impact</h3>
+                <div class="discounted">
+                    <p id="pars1">€65,697,925</p>
+                    <p id="poo">Given in discounts and financial <br>aid to cover therapy costs <br>for low-income
+                        individuals</p>
+                </div>
+                <div class="donated">
+                    <p id="pars">106,202</p>
+                    <p id="poo">Free months of therapy <br> donated to communities in need</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 md-lg-3">
+                    <div class="cards-disasters">
+                        <h3 id="disaster">Disaster and crisis relief</h3>
+                        <p id="relief">In the wake of natural disasters and crisis situations worldwide, <br>ZaraTherapy
+                            shares resources and provides impacted communities <br>and individuals with free mental
+                            health care and support.</p>
+                        <div class="cards-disaster">
+                            <div class="cardds">
+                                <img id="dis" src="images/dis1.jpg" alt="">
+                                <p id="info">In response to Hurricane <br>Ian in Florida, ZaraTherapy <br>donated
+                                    therapy to <br>individuals and <br>communities affected.</p>
+                            </div>
+
+                            <div class="cardds">
+                                <img id="dis" src="images/dis2.jpg" alt="">
+                                <p id="info">Following the Highland Park shooting,ZaraTherapy reached out to help with
+                                    free therapy for survivors and those impacted.</p>
+                            </div>
+
+                            <div class="cardds">
+                                <img id="dis" src="images/dis3.jpg" alt="">
+                                <p id="info">During the humanitarian crisis in Ukraine, ZaraTherapy was there for
+                                    Ukrainians worldwide by providing free therapy to those impacted.</p>
+                            </div>
+
+                            <div class="cardds">
+                                <img id="dis" src="images/dis4.jpg" alt="">
+                                <p id="info">In the aftermath of the shooting at Robb Elementary School in Uvalde, TX,
+                                    ZaraTherapy reached out to provide free therapy to families impacted.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="cards-disaster1">
+                                    <div class="cardds">
+                                        <img id="dis" src="images/dis6.jpg" alt="">
+                                        <p id="info">In response to Hurricane Ida, ZaraTherapy donated therapy to
+                                            individuals and communities affected.</p>
+                                    </div>
+
+                                    <div class="cardds">
+                                        <img id="dis" src="images/dis5.jpg" alt="">
+                                        <p id="info">ZaraTherapy supported the LGBTQ+ community and individuals impacted
+                                            by the shooting at Club Q in Colorado Springs with free therapy.</p>
+                                    </div>
+
+                                    <div class="cardds">
+                                        <img id="dis" src="images/dis7.jpg" alt="">
+                                        <p id="info">To help families impacted by the horrific flooding that hit the
+                                            Midwest in the Summer of 2022,ZaraTherapy provided free therapy.</p>
+                                    </div>
+
+                                    <div class="cardds">
+                                        <img id="dis" src="images/dis8.jpg" alt="">
+                                        <p id="info">In response to the shooting at the Central Visual and Performing
+                                            Arts High School in St.Louis, ZaraTherapy provided support through therapy
+                                            to those in need.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="community">
+                <h3 id="partners-he">Partners and community</h3>
+                <p id="unite">To further our mission, ZaraTherapy partners with over 100 impactful non- <br>profit
+                    organizations, to donate free therapy to a variety of under- <br>resourced communities and break
+                    down barriers to accessing therapy for <br>people in need.</p>
+
+                <div class="community-img">
+                    <img src="images/PARTNERS.JPG.png" alt="" id="patnners-img">
+                    <img src="images/PARTNERS2.JPG.png" alt="" id="patnners-img">
+                    <img src="images/PARTNER3.JPG.png" alt="" id="patnners-img">
+                    <img src="images/PARTNER4.JPG.png" alt="" id="patnners-img">
+                    <img src="images/BMHA.png" alt="" id="patnners-img">
+                    <img src="images/inclusive-therapists.png" alt="" id="patnners-img">
+                    <img src="images/me-too.png" alt="" id="patnners-img">
+                    <br>
+                    <img src="images/out-foundation.png" alt="" id="patnners-img">
+                    <img src="images/nami.png" alt="" id="patnners-img">
+                    <img src="images/gds.png" alt="" id="patnners-img"> <img src="images/ee062f7d-napablogo.png" alt=""
+                        id="patnners-img">
+                    <img src="images/thurgood-marshall.png" alt="" id="patnners-img"> <img
+                        src="images/6c53772c-carefoundationlogo.png" alt="" id="patnners-img">
+                    <img src="images/8996f7ef-download1.png" alt="" id="patnners-img">
+                    <br>
+                    <img src="images/08df8fca-pointfoundationlogo.png" alt="" id="patnners-img">
+                    <img src="images/9dd933e8-we2matter.png" alt="" id="patnners-img">
+                    <img src="images/62a21abf-transsocialinclogo.png" alt="" id="patnners-img">
+                    <img src="images/active-minds.png" alt="" id="patnners-img">
+                    <img src="images/ASJ.jpeg" alt="" id="patnners-img">
+                    <img src="images/Transformation-Project.png" alt="" id="patnners-img">
+                    <img src="images/Baby2Baby.png" alt="" id="patnners-img">
+                    <br>
+                    <img src="images/bold.png" alt="" id="patnners-img">
+                    <img src="images/CAST_LA.png" alt="" id="patnners-img">
+                    <img src="images/2c2e18db-dbsasf.png" alt="" id="patnners-img"> <img src="images/PFLAG-SF.png"
+                        alt="" id="patnners-img">
+                    <img src="images/732545b3-allhandsandheartslogo.png" alt="" id="patnners-img"> <img
+                        src="images/5c25038c-upliftfoundationantelopevalley.png" alt="" id="patnners-img">
+                    <img src="images/6fd788e2-pridelinkcolor.jpeg" alt="" id="patnners-img">
+                </div>
+            </div>
+
+
+
+
+            <div class="mental-health">
+                <h3 id="future">The Future of Mental Health Scholarship</h3>
+                <p id="health">As part of our mission to make high-quality mental health care accessible and affordable
+                    <br>for anyone in need, ZaraTherapy is investing in the future of mental healthcare providers
+                    <br>through our scholarship program: the Future of Mental Health Scholarship.</p>
+                <br>
+                <p id="health">This program calls upon emerging scholars in this space to share their stories and
+                    passion <br>for mental health in order for us to support and empower their impact on the field.</p>
+                <br>
+                <p id="health">Our fund currently awards 10 college students studying psychology or related fields with
+                    <br>$10,000 towards their education.</p>
+            </div>
+
+
+
+        </div>
+        </div>
+
+        <div class="work">
+            <h3 id="work-with-us">work with us</h3>
+            <p id="us">Do you work with a 501(c)(3) non-profit organization that would be interested <br><span> in
+                    partnering with ZaraTherapy? </span></p>
+
+            <button type="button" id="contact" onclick="window.location.href ='contact.html'">contact</button>
+        </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
